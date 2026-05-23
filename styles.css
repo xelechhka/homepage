@@ -127,10 +127,10 @@ body {
 
 .contact-info__avatar {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
-  border: 3px solid;
+  border: 4px solid;
   border-color: var(--text-decoration-color);
 }
 
@@ -269,6 +269,36 @@ body {
   .timeline__item::before {
     left: -16px;
   }
+}
+
+/* Hobbies styles */
+
+.hobbies {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.hobbies__header {
+  color: var(--secondary-text-color);
+  text-align: center;
+}
+
+.hobbies__tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+
+.hobbies__tag {
+  background: #fffdf7;
+  border: 1px solid #fff1d6;
+  border-radius: 999px;
+  padding: 10px 16px;
+  color: var(--primary-text-color);
+  font-size: 0.98rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
 }
 
 /* Experience and additional info styles */
