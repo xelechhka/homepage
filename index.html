@@ -1,10 +1,307 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Résumé</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    ― Hello World! &#x1F609;
+  <main>
+    <div class="resume">
+      <div class="container">
+        <!-- Primary Information -->
+        <!-- Contact Information -->
+        <div class="resume__block">
+          <h1 class="contact-info__header">Olha Humenna</h1>
+          <h2 class="contact-info__sub-header">Full-Stack Developer</h2>
+
+          <div class="contact_info_container fh">
+            <div class="contact-info__block"></div>
+
+            <div class="contact-info__block contact-info__block--center">
+              <img
+                class="contact-info__avatar"
+                src="assets/avatar.png"
+                alt="Avatar"
+              />
+            </div>
+            
+            <div class="contact-info__block">
+              <!-- Location -->
+              <a href="" rel="author" class="contact-info__item">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg
+                    class="contact-info__item-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 384 512"
+                  >
+                    <path
+                      d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192
+                      0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535
+                      13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817
+                      80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
+                    ></path>
+                  </svg>
+                </div>
+                <span>Odesa, Ukraine</span>
+              </a>
+
+              <!-- Phone -->
+              <a href="tel:+380682025370" class="contact-info__item">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg 
+                    class="contact-info__item-icon" 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 512 512"
+                    >
+                      <path 
+                        d="M160.2 25C152.3 6.1 131.7-3.9 112.1 1.4l-5.5 1.5c-64.6 17.6-119.8 80.2-103.7 156.4 37.1 175 174.8 312.7 349.8 349.8 76.3 16.2 138.8-39.1 156.4-103.7l1.5-5.5c5.4-19.7-4.7-40.3-23.5-48.1l-97.3-40.5c-16.5-6.9-35.6-2.1-47 11.8l-38.6 47.2C233.9 335.4 177.3 277 144.8 205.3L189 169.3c13.9-11.3 18.6-30.4 11.8-47L160.2 25z"
+                      ></path>
+                  </svg>
+                </div>
+                <span>+380 68 202 53 70</span>
+              </a>
+
+              <!-- Email -->
+              <a href="mailto:olga.gum11@gmail.com" class="contact-info__item">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg 
+                    class="contact-info__item-icon"
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 512 512"
+                    >
+                      <path 
+                        d="M256 64C150 64 64 150 64 256s86 192 192 192c17.7 0 32 14.3 32 32s-14.3 32-32 32C114.6 512 0 397.4 0 256S114.6 0 256 0 512 114.6 512 256l0 32c0 53-43 96-96 96-29.3 0-55.6-13.2-73.2-33.9-22.8 21-53.3 33.9-86.8 33.9-70.7 0-128-57.3-128-128s57.3-128 128-128c27.9 0 53.7 8.9 74.7 24.1 5.7-5 13.1-8.1 21.3-8.1 17.7 0 32 14.3 32 32l0 112c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32c0-106-86-192-192-192zm64 192a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z"
+                      ></path>
+                    </svg>
+                </div>
+                <span>olga.gum11@gmail.com</span>
+              </a>
+
+              <!-- GitHub -->
+              <a href="https://github.com/xelechhka" rel="author" class="contact-info__item" target="_blank"
+              >
+                <div class="contact-info__item-icon-wrapper">
+                  <svg
+                    class="contact-info__item-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 496 512"
+                  >
+                    <path
+                      d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6
+                      0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7
+                      2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9
+                      1-4.9 3.6-4.3 5.6.7 2 3.6 2.6 6.5 1.3 2.9-1 4.9-3.6 4.3-5.6-.7-1.9-3.6-2.6-6.5-1.3zM247.2
+                      8C111 8 0 119 0 255.2c0 108.3 69.8 200.1 166.5 232.6 12.2
+                      2.3 16.7-5.3 16.7-11.7 0-5.8-.2-20.9-.3-41.1-67.7
+                      14.7-82-32.6-82-32.6-11.1-28.1-27.1-35.6-27.1-35.6-22.2-15.2
+                      1.7-14.9 1.7-14.9 24.6 1.7 37.5 25.3 37.5 25.3
+                      21.9 37.5 57.6 26.7 71.6 20.4 2.2-15.9 8.5-26.7
+                      15.5-32.9-55.9-6.3-114.6-27.9-114.6-124.3 0-27.5
+                      9.8-50 25.8-67.6-2.6-6.3-11.2-31.9 2.4-66.6 0
+                      0 21-6.7 68.9 25.7 20-5.6 41.5-8.4 62.9-8.5
+                      21.4.1 42.9 2.9 62.9 8.5 68.9-32.4 68.9-25.7
+                      68.9-25.7 13.6 34.7 5 60.3 2.4 66.6 16 17.6
+                      25.8 40.1 25.8 67.6 0 96.6-58.8 117.8-114.8
+                      124 8.7 7.5 16.5 22.4 16.5 45.2 0 32.6-.3
+                      58.9-.3 66.9 0 6.5 4.4 14.1 16.8 11.7
+                      C426.2 455.3 496 363.5 496 255.2 496
+                      119 385 8 247.2 8z"
+                    ></path>
+                  </svg>
+                </div>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Intro -->
+        <div class="resume__block">
+          <div class="intro">
+            <div class="intro__icon-wrapper">
+              <svg
+                class="intro__icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7
+                  24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0
+                  26.5 21.5 48 48 48h128c26.5 0 48-21.5
+                  48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64
+                  64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6
+                  32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5
+                  48-48V304c0-26.5-21.5-48-48-48z"
+                ></path>
+              </svg>
+            </div>
+            <p class="intro_text">
+              I'm Olha, a beginner full-stack developer who enjoys working with code and learning how things work behind the scenes. I like learning new technologies and seeing the results of my work in practice, especially when everything starts to come together. I'm here to improve my skills, gain real project and teamwork experience, and build a strong foundation for my future career in software development. 
+            </p>
+          </div>
+        </div>
+
+        <!-- Secondary Information -->
+        <!-- Skills -->
+        <div class="resume__block">
+          <div class="skills">
+            <h3 class="skills__header">Skills</h3>
+            <p class="skills__text">
+              Adaptability, Time management, Persistence, Fast learning, Friendly attitude
+            </p>
+          </div>
+        </div>
+
+        <!-- Experiences and additional information -->
+        <div class="resume__block">
+          <div class="main-info fh">
+            <!-- Experiences -->
+            <div class="experiences">
+              <h3 class="experiences__header">Experience</h3>
+              <div class="experiences__company">
+                <div class="experiences__company-header">
+                  <span class="experiences__company-header-durability"
+                    >2024 - Present</span
+                  >
+                  <h3 class="experiences__company-header-name">Self-learning</h3>
+                </div>
+                <div class="experiences__company-project">
+                  <span class="experiences__company-project-role"
+                    >Frontend & Web Development Practice</span
+                  >
+                  <h3 class="experiences__company-project-name">Pet Projects</h3>
+                  <ul class="experiences__company-project-responsibilities">
+                    <li>Learning and practicing frontend development (HTML, CSS, JavaScript)</li>
+                    <li>Building pet projects to improve coding skills</li>
+                    <li>Studying JavaScript and modern web development tools</li>
+                    <li>Working with Git and GitHub for version control</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Additional Information -->
+            <div class="additional-info fv">
+              <!-- Education -->
+              <div class="additional-info__education">
+                <h3 class="additional-info__education-header">Education</h3>
+                <div class="additional-info__education-university">
+                  <span class="additional-info__education-university-durability"
+                    >2020 - 2024</span
+                  >
+                  <h3 class="additional-info__education-university-speciality">
+                    Bachelor Degree in Computer Science
+                  </h3>
+                  <p class="additional-info__education-university-name">
+                    State University of Intelligent Technologies and Telecommunications
+                  </p>
+                </div>
+              </div>
+              <!-- Languages -->
+              <div class="additional-info__languages">
+                <h3 class="additional-info__languages-header">Languages</h3>
+                <p class="additional-info__languages-item">English</p>
+                <p class="additional-info__languages-item">
+                  Ukrainian
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline -->
+        <div class="resume__block">
+          <div class="timeline">
+            <h3 class="timeline__header">Life timeline</h3>
+            <div class="timeline__items">
+              <article class="timeline__item">
+                <span class="timeline__year">2019</span>
+                <div class="timeline__content">
+                  <h4 class="timeline__title">Graduated from high school</h4>
+                </div>
+              </article>
+
+              <article class="timeline__item">
+                <span class="timeline__year">2019</span>
+                <div class="timeline__content">
+                  <h4 class="timeline__title">Started a Bachelor's degree in Management</h4>
+                  <p class="timeline__text">
+                    at O. S. Popov Odessa National Academy of Telecommunications.
+                  </p>
+                </div>
+              </article>
+
+              <article class="timeline__item">
+                <span class="timeline__year">2020</span>
+                <div class="timeline__content">
+                  <h4 class="timeline__title">Discovered a passion for programming</h4>
+                  <p class="timeline__text">
+                    I realized that I wanted to build a career in software development and started shifting my focus toward IT.
+                  </p>
+                </div>
+              </article>
+
+              <article class="timeline__item">
+                <span class="timeline__year">2020</span>
+                <div class="timeline__content">
+                  <h4 class="timeline__title">Enrolled in a Bachelor's degree in Computer Science</h4>
+                  <p class="timeline__text">
+                    at O. S. Popov Odessa National Academy of Telecommunications.
+                  </p>
+                </div>
+              </article>
+
+              <article class="timeline__item">
+                <span class="timeline__year">2024</span>
+                <div class="timeline__content">
+                  <h4 class="timeline__title">Graduated with a Bachelor's degree in Computer Science</h4>
+                  <p class="timeline__text">
+                    By the time of graduation, the university had been renamed to the State University of Intelligent Technologies and Telecommunications.
+                  </p>
+                </div>
+              </article>
+
+              <article class="timeline__item">
+                <span class="timeline__year">2024</span>
+                <div class="timeline__content">
+                  <h4 class="timeline__title">Defended my graduation project</h4>
+                  <p class="timeline__text">
+                    And received a score of 90/100.
+                  </p>
+                </div>
+              </article>
+
+              <article class="timeline__item">
+                <span class="timeline__year">2026</span>
+                <div class="timeline__content">
+                  <h4 class="timeline__title">Passed the Binary Studio Academy entrance assessment</h4>
+                  <p class="timeline__text">
+                    And took the next step toward professional growth.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hobbies -->
+        <div class="resume__block">
+          <div class="hobbies">
+            <h3 class="hobbies__header">Hobbies & Interests</h3>
+            <div class="hobbies__tags">
+              <span class="hobbies__tag">&#x1F4F8; Film Photography</span>
+              <span class="hobbies__tag">&#x1F3B8; Guitar & Singing</span>
+              <span class="hobbies__tag">&#x1F1EF;&#x1F1F5; Japanese Learning</span>
+              <span class="hobbies__tag">&#x1F3A8; Drawing</span>
+              <span class="hobbies__tag">&#x1F9E9; Sudoku & Logic Puzzles</span>
+              <span class="hobbies__tag">&#x2694;&#xFE0F; Action RPG & Soulslike Games</span>
+              <span class="hobbies__tag">&#x2601;&#xFE0F; Sky Photography & Nature Observation</span>
+              <span class="hobbies__tag">&#x1F431; Cat Enthusiast</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>  
+  </main>
   </body>
 </html>
